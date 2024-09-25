@@ -1,0 +1,1329 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CameraSDK",
+    "printedName": "CameraSDK",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "AccessPhotoError",
+        "printedName": "AccessPhotoError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "photoFolderCreationFailed",
+            "printedName": "photoFolderCreationFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CameraSDK.AccessPhotoError.Type) -> CameraSDK.AccessPhotoError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccessPhotoError",
+                    "printedName": "CameraSDK.AccessPhotoError",
+                    "usr": "s:9CameraSDK16AccessPhotoErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CameraSDK.AccessPhotoError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccessPhotoError",
+                        "printedName": "CameraSDK.AccessPhotoError",
+                        "usr": "s:9CameraSDK16AccessPhotoErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9CameraSDK16AccessPhotoErrorO25photoFolderCreationFailedyA2CmF",
+            "mangledName": "$s9CameraSDK16AccessPhotoErrorO25photoFolderCreationFailedyA2CmF",
+            "moduleName": "CameraSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "unknownError",
+            "printedName": "unknownError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CameraSDK.AccessPhotoError.Type) -> CameraSDK.AccessPhotoError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccessPhotoError",
+                    "printedName": "CameraSDK.AccessPhotoError",
+                    "usr": "s:9CameraSDK16AccessPhotoErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CameraSDK.AccessPhotoError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccessPhotoError",
+                        "printedName": "CameraSDK.AccessPhotoError",
+                        "usr": "s:9CameraSDK16AccessPhotoErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9CameraSDK16AccessPhotoErrorO07unknownE0yA2CmF",
+            "mangledName": "$s9CameraSDK16AccessPhotoErrorO07unknownE0yA2CmF",
+            "moduleName": "CameraSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AccessPhotoError",
+                "printedName": "CameraSDK.AccessPhotoError",
+                "usr": "s:9CameraSDK16AccessPhotoErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AccessPhotoError",
+                "printedName": "CameraSDK.AccessPhotoError",
+                "usr": "s:9CameraSDK16AccessPhotoErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CameraSDK16AccessPhotoErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9CameraSDK16AccessPhotoErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "CameraSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CameraSDK16AccessPhotoErrorO9hashValueSivp",
+            "mangledName": "$s9CameraSDK16AccessPhotoErrorO9hashValueSivp",
+            "moduleName": "CameraSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CameraSDK16AccessPhotoErrorO9hashValueSivg",
+                "mangledName": "$s9CameraSDK16AccessPhotoErrorO9hashValueSivg",
+                "moduleName": "CameraSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CameraSDK16AccessPhotoErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9CameraSDK16AccessPhotoErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "CameraSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9CameraSDK16AccessPhotoErrorO",
+        "mangledName": "$s9CameraSDK16AccessPhotoErrorO",
+        "moduleName": "CameraSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CameraSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AccessPhotosDelegate",
+        "printedName": "AccessPhotosDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didAccessPhotos",
+            "printedName": "didAccessPhotos(images:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIImage]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CameraSDK20AccessPhotosDelegateP03didcD06imagesySaySo7UIImageCG_tF",
+            "mangledName": "$s9CameraSDK20AccessPhotosDelegateP03didcD06imagesySaySo7UIImageCG_tF",
+            "moduleName": "CameraSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CameraSDK.AccessPhotosDelegate>",
+            "sugared_genericSig": "<Self where Self : CameraSDK.AccessPhotosDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailWithError",
+            "printedName": "didFailWithError(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AccessPhotoError",
+                "printedName": "CameraSDK.AccessPhotoError",
+                "usr": "s:9CameraSDK16AccessPhotoErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CameraSDK20AccessPhotosDelegateP16didFailWithError5erroryAA0c5PhotoI0O_tF",
+            "mangledName": "$s9CameraSDK20AccessPhotosDelegateP16didFailWithError5erroryAA0c5PhotoI0O_tF",
+            "moduleName": "CameraSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CameraSDK.AccessPhotosDelegate>",
+            "sugared_genericSig": "<Self where Self : CameraSDK.AccessPhotosDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9CameraSDK20AccessPhotosDelegateP",
+        "mangledName": "$s9CameraSDK20AccessPhotosDelegateP",
+        "moduleName": "CameraSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CameraSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "CameraSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "LocalAuthentication",
+        "printedName": "LocalAuthentication",
+        "declKind": "Import",
+        "moduleName": "CameraSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PhotoManager",
+        "printedName": "PhotoManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "takePhotoDelegate",
+            "printedName": "takePhotoDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any CameraSDK.TakePhotoDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TakePhotoDelegate",
+                    "printedName": "any CameraSDK.TakePhotoDelegate",
+                    "usr": "s:9CameraSDK17TakePhotoDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CameraSDK12PhotoManagerC04takeC8DelegateAA04TakecF0_pSgvp",
+            "mangledName": "$s9CameraSDK12PhotoManagerC04takeC8DelegateAA04TakecF0_pSgvp",
+            "moduleName": "CameraSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any CameraSDK.TakePhotoDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TakePhotoDelegate",
+                        "printedName": "any CameraSDK.TakePhotoDelegate",
+                        "usr": "s:9CameraSDK17TakePhotoDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CameraSDK12PhotoManagerC04takeC8DelegateAA04TakecF0_pSgvg",
+                "mangledName": "$s9CameraSDK12PhotoManagerC04takeC8DelegateAA04TakecF0_pSgvg",
+                "moduleName": "CameraSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any CameraSDK.TakePhotoDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TakePhotoDelegate",
+                        "printedName": "any CameraSDK.TakePhotoDelegate",
+                        "usr": "s:9CameraSDK17TakePhotoDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CameraSDK12PhotoManagerC04takeC8DelegateAA04TakecF0_pSgvs",
+                "mangledName": "$s9CameraSDK12PhotoManagerC04takeC8DelegateAA04TakecF0_pSgvs",
+                "moduleName": "CameraSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CameraSDK12PhotoManagerC04takeC8DelegateAA04TakecF0_pSgvM",
+                "mangledName": "$s9CameraSDK12PhotoManagerC04takeC8DelegateAA04TakecF0_pSgvM",
+                "moduleName": "CameraSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accessPhotosDelegate",
+            "printedName": "accessPhotosDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any CameraSDK.AccessPhotosDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccessPhotosDelegate",
+                    "printedName": "any CameraSDK.AccessPhotosDelegate",
+                    "usr": "s:9CameraSDK20AccessPhotosDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CameraSDK12PhotoManagerC20accessPhotosDelegateAA06AccessfG0_pSgvp",
+            "mangledName": "$s9CameraSDK12PhotoManagerC20accessPhotosDelegateAA06AccessfG0_pSgvp",
+            "moduleName": "CameraSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any CameraSDK.AccessPhotosDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccessPhotosDelegate",
+                        "printedName": "any CameraSDK.AccessPhotosDelegate",
+                        "usr": "s:9CameraSDK20AccessPhotosDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CameraSDK12PhotoManagerC20accessPhotosDelegateAA06AccessfG0_pSgvg",
+                "mangledName": "$s9CameraSDK12PhotoManagerC20accessPhotosDelegateAA06AccessfG0_pSgvg",
+                "moduleName": "CameraSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any CameraSDK.AccessPhotosDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccessPhotosDelegate",
+                        "printedName": "any CameraSDK.AccessPhotosDelegate",
+                        "usr": "s:9CameraSDK20AccessPhotosDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CameraSDK12PhotoManagerC20accessPhotosDelegateAA06AccessfG0_pSgvs",
+                "mangledName": "$s9CameraSDK12PhotoManagerC20accessPhotosDelegateAA06AccessfG0_pSgvs",
+                "moduleName": "CameraSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CameraSDK12PhotoManagerC20accessPhotosDelegateAA06AccessfG0_pSgvM",
+                "mangledName": "$s9CameraSDK12PhotoManagerC20accessPhotosDelegateAA06AccessfG0_pSgvM",
+                "moduleName": "CameraSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(viewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PhotoManager",
+                "printedName": "CameraSDK.PhotoManager",
+                "usr": "c:@M@CameraSDK@objc(cs)PhotoManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9CameraSDK12PhotoManagerC14viewControllerACSo06UIViewF0C_tcfc",
+            "mangledName": "$s9CameraSDK12PhotoManagerC14viewControllerACSo06UIViewF0C_tcfc",
+            "moduleName": "CameraSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "takePhoto",
+            "printedName": "takePhoto()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CameraSDK12PhotoManagerC04takeC0yyF",
+            "mangledName": "$s9CameraSDK12PhotoManagerC04takeC0yyF",
+            "moduleName": "CameraSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "accessPhotos",
+            "printedName": "accessPhotos()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CameraSDK12PhotoManagerC12accessPhotosyyF",
+            "mangledName": "$s9CameraSDK12PhotoManagerC12accessPhotosyyF",
+            "moduleName": "CameraSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "authenticateUser",
+            "printedName": "authenticateUser(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CameraSDK12PhotoManagerC16authenticateUser10completionyySb_s5Error_pSgtc_tF",
+            "mangledName": "$s9CameraSDK12PhotoManagerC16authenticateUser10completionyySb_s5Error_pSgtc_tF",
+            "moduleName": "CameraSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PhotoManager",
+                "printedName": "CameraSDK.PhotoManager",
+                "usr": "c:@M@CameraSDK@objc(cs)PhotoManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CameraSDK@objc(cs)PhotoManager(im)init",
+            "mangledName": "$s9CameraSDK12PhotoManagerCACycfc",
+            "moduleName": "CameraSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "imagePickerController",
+            "printedName": "imagePickerController(_:didFinishPickingMediaWithInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImagePickerController",
+                "printedName": "UIKit.UIImagePickerController",
+                "usr": "c:objc(cs)UIImagePickerController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[UIKit.UIImagePickerController.InfoKey : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InfoKey",
+                    "printedName": "UIKit.UIImagePickerController.InfoKey",
+                    "usr": "c:@T@UIImagePickerControllerInfoKey"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@CameraSDK@objc(cs)PhotoManager(im)imagePickerController:didFinishPickingMediaWithInfo:",
+            "mangledName": "$s9CameraSDK12PhotoManagerC21imagePickerController_29didFinishPickingMediaWithInfoySo07UIImagefG0C_SDySo0nfgM3KeyaypGtF",
+            "moduleName": "CameraSDK",
+            "objc_name": "imagePickerController:didFinishPickingMediaWithInfo:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "imagePickerControllerDidCancel",
+            "printedName": "imagePickerControllerDidCancel(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImagePickerController",
+                "printedName": "UIKit.UIImagePickerController",
+                "usr": "c:objc(cs)UIImagePickerController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@CameraSDK@objc(cs)PhotoManager(im)imagePickerControllerDidCancel:",
+            "mangledName": "$s9CameraSDK12PhotoManagerC30imagePickerControllerDidCancelyySo07UIImagefG0CF",
+            "moduleName": "CameraSDK",
+            "objc_name": "imagePickerControllerDidCancel:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CameraSDK@objc(cs)PhotoManager",
+        "mangledName": "$s9CameraSDK12PhotoManagerC",
+        "moduleName": "CameraSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CameraSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TakePhotoDelegate",
+        "printedName": "TakePhotoDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didFailWithError",
+            "printedName": "didFailWithError(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TakePhotoError",
+                "printedName": "CameraSDK.TakePhotoError",
+                "usr": "s:9CameraSDK14TakePhotoErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CameraSDK17TakePhotoDelegateP16didFailWithError5erroryAA0cdI0O_tF",
+            "mangledName": "$s9CameraSDK17TakePhotoDelegateP16didFailWithError5erroryAA0cdI0O_tF",
+            "moduleName": "CameraSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CameraSDK.TakePhotoDelegate>",
+            "sugared_genericSig": "<Self where Self : CameraSDK.TakePhotoDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9CameraSDK17TakePhotoDelegateP",
+        "mangledName": "$s9CameraSDK17TakePhotoDelegateP",
+        "moduleName": "CameraSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TakePhotoError",
+        "printedName": "TakePhotoError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cameraNotAvailable",
+            "printedName": "cameraNotAvailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CameraSDK.TakePhotoError.Type) -> CameraSDK.TakePhotoError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TakePhotoError",
+                    "printedName": "CameraSDK.TakePhotoError",
+                    "usr": "s:9CameraSDK14TakePhotoErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CameraSDK.TakePhotoError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TakePhotoError",
+                        "printedName": "CameraSDK.TakePhotoError",
+                        "usr": "s:9CameraSDK14TakePhotoErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9CameraSDK14TakePhotoErrorO18cameraNotAvailableyA2CmF",
+            "mangledName": "$s9CameraSDK14TakePhotoErrorO18cameraNotAvailableyA2CmF",
+            "moduleName": "CameraSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "permissionDenied",
+            "printedName": "permissionDenied",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CameraSDK.TakePhotoError.Type) -> CameraSDK.TakePhotoError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TakePhotoError",
+                    "printedName": "CameraSDK.TakePhotoError",
+                    "usr": "s:9CameraSDK14TakePhotoErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CameraSDK.TakePhotoError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TakePhotoError",
+                        "printedName": "CameraSDK.TakePhotoError",
+                        "usr": "s:9CameraSDK14TakePhotoErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9CameraSDK14TakePhotoErrorO16permissionDeniedyA2CmF",
+            "mangledName": "$s9CameraSDK14TakePhotoErrorO16permissionDeniedyA2CmF",
+            "moduleName": "CameraSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "imageCaptureFailed",
+            "printedName": "imageCaptureFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CameraSDK.TakePhotoError.Type) -> CameraSDK.TakePhotoError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TakePhotoError",
+                    "printedName": "CameraSDK.TakePhotoError",
+                    "usr": "s:9CameraSDK14TakePhotoErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CameraSDK.TakePhotoError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TakePhotoError",
+                        "printedName": "CameraSDK.TakePhotoError",
+                        "usr": "s:9CameraSDK14TakePhotoErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9CameraSDK14TakePhotoErrorO18imageCaptureFailedyA2CmF",
+            "mangledName": "$s9CameraSDK14TakePhotoErrorO18imageCaptureFailedyA2CmF",
+            "moduleName": "CameraSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "imageSavingFailed",
+            "printedName": "imageSavingFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CameraSDK.TakePhotoError.Type) -> CameraSDK.TakePhotoError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TakePhotoError",
+                    "printedName": "CameraSDK.TakePhotoError",
+                    "usr": "s:9CameraSDK14TakePhotoErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CameraSDK.TakePhotoError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TakePhotoError",
+                        "printedName": "CameraSDK.TakePhotoError",
+                        "usr": "s:9CameraSDK14TakePhotoErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9CameraSDK14TakePhotoErrorO17imageSavingFailedyA2CmF",
+            "mangledName": "$s9CameraSDK14TakePhotoErrorO17imageSavingFailedyA2CmF",
+            "moduleName": "CameraSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "unknownError",
+            "printedName": "unknownError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CameraSDK.TakePhotoError.Type) -> CameraSDK.TakePhotoError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TakePhotoError",
+                    "printedName": "CameraSDK.TakePhotoError",
+                    "usr": "s:9CameraSDK14TakePhotoErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CameraSDK.TakePhotoError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TakePhotoError",
+                        "printedName": "CameraSDK.TakePhotoError",
+                        "usr": "s:9CameraSDK14TakePhotoErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9CameraSDK14TakePhotoErrorO07unknownE0yA2CmF",
+            "mangledName": "$s9CameraSDK14TakePhotoErrorO07unknownE0yA2CmF",
+            "moduleName": "CameraSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TakePhotoError",
+                "printedName": "CameraSDK.TakePhotoError",
+                "usr": "s:9CameraSDK14TakePhotoErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TakePhotoError",
+                "printedName": "CameraSDK.TakePhotoError",
+                "usr": "s:9CameraSDK14TakePhotoErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CameraSDK14TakePhotoErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9CameraSDK14TakePhotoErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "CameraSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CameraSDK14TakePhotoErrorO9hashValueSivp",
+            "mangledName": "$s9CameraSDK14TakePhotoErrorO9hashValueSivp",
+            "moduleName": "CameraSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CameraSDK14TakePhotoErrorO9hashValueSivg",
+                "mangledName": "$s9CameraSDK14TakePhotoErrorO9hashValueSivg",
+                "moduleName": "CameraSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CameraSDK14TakePhotoErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9CameraSDK14TakePhotoErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "CameraSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9CameraSDK14TakePhotoErrorO",
+        "mangledName": "$s9CameraSDK14TakePhotoErrorO",
+        "moduleName": "CameraSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/damin\/Desktop\/SEON Mobile Challenge iOS\/CameraSDK\/CameraSDK\/PhotoManager.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 6,
+      "value": "\"Seon\""
+    },
+    {
+      "filePath": "\/Users\/damin\/Desktop\/SEON Mobile Challenge iOS\/CameraSDK\/CameraSDK\/PhotoManager.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 6,
+      "value": "\".jpg\""
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios18.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name CameraSDK
+import AVFoundation
+@_exported import CameraSDK
+import LocalAuthentication
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum AccessPhotoError : Swift.Error {
+  case photoFolderCreationFailed
+  case unknownError
+  public static func == (a: CameraSDK.AccessPhotoError, b: CameraSDK.AccessPhotoError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol AccessPhotosDelegate {
+  func didAccessPhotos(images: [UIKit.UIImage])
+  func didFailWithError(error: CameraSDK.AccessPhotoError)
+}
+@objc public class PhotoManager : ObjectiveC.NSObject {
+  public var takePhotoDelegate: (any CameraSDK.TakePhotoDelegate)?
+  public var accessPhotosDelegate: (any CameraSDK.AccessPhotosDelegate)?
+  public init(viewController: UIKit.UIViewController)
+  public func takePhoto()
+  public func accessPhotos()
+  public func authenticateUser(completion: @escaping (Swift.Bool, (any Swift.Error)?) -> Swift.Void)
+  @objc deinit
+}
+extension CameraSDK.PhotoManager : UIKit.UIImagePickerControllerDelegate, UIKit.UINavigationControllerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func imagePickerController(_ picker: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func imagePickerControllerDidCancel(_ picker: UIKit.UIImagePickerController)
+}
+public protocol TakePhotoDelegate {
+  func didFailWithError(error: CameraSDK.TakePhotoError)
+}
+public enum TakePhotoError : Swift.Error {
+  case cameraNotAvailable
+  case permissionDenied
+  case imageCaptureFailed
+  case imageSavingFailed
+  case unknownError
+  public static func == (a: CameraSDK.TakePhotoError, b: CameraSDK.TakePhotoError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension CameraSDK.AccessPhotoError : Swift.Equatable {}
+extension CameraSDK.AccessPhotoError : Swift.Hashable {}
+extension CameraSDK.TakePhotoError : Swift.Equatable {}
+extension CameraSDK.TakePhotoError : Swift.Hashable {}
