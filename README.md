@@ -7,6 +7,8 @@ The **CameraSDK** provides the following features:
 2. **accessPhoto** - Retrieves the captured photo from storage.
 3. **authenticateUser** - Uses the iOS device's built-in biometric authentication to verify the user.
 
+> **Note:** The `.xcframework` liabray is included in `/output` folder of this repository.
+
 ## Project Structure
 
 The project is divided into 2 parts:
